@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+h1{
+    font-family: 'Borel', cursive;
+    text-align: center;
+
+}
+body{
+
+    background-color: lightyellow;
+}
+.emoji-face{
+    background: #2bb9bb;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
+    position: relative;
+}
+.eye1{
+    background-color: #000000;
+    height: 16px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+.eye2{
+    background-color: #000000;
+    height: 16px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+.mouth{
+    background: #ee68e1;
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+.tongue{
+    background: #db2424c7;
+    height: 38px;
+    width: 38px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20PX;
+    left: 15PX;
+    z-index: 2;
+}
+.mouth-shock{
+    background: #fc1b1b;
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+.mouth-speechless{
+    background: #dbf171;
+    height: 10px;
+    width: 70px;
+    border-radius: 50px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+}
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 20px;    
+}
+
+/* fixing thhe emoji */
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+#heading{
+    text-align: center;
+    font-size: 4em;
+}
+h1{
+    font-size: 2em;
+
+}
+p{
+    font-size: 1.5em;
+
+}
+.emoji-face:hover{
+    background-color: black;
+    transform: scale(1.25);
+}
+.write-up{
+    background-color: aquamarine;
+    padding: 5% 10%;
+    margin: 10% 20%;
+    text-align: center;
+    border-radius: 20px;
+
+}
